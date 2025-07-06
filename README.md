@@ -1,1 +1,1 @@
-# RAG_Faiss
+# RAG_FAISS
