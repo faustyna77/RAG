@@ -3,24 +3,24 @@
         "title": "Moje portfolio",
         "description": "Projekt portfolio zrealizowany w ASP.NET Core",
         "category": "Portfolio",
-        "text": "Moje portfolioProjekt portfolio zrealizowany w ASP.NET Core"
+        "text": "Moje portfolio Projekt portfolio zrealizowany w ASP.NET Core"
     },
     {
         "title": "Inny projekt",
         "description": "Opis innego ciekawego projektu",
         "category": "Blog",
-        "text": "Inny projektOpis innego ciekawego projektu"
+        "text": "Inny projekt Opis innego ciekawego projektu"
     },
     {
         "title": "projekt",
         "description": "jjjjjjjjjjjjjj",
         "category": "esp",
-        "text": "projektjjjjjjjjjjjjjj"
+        "text": "projekt jjjjjjjjjjjjjj"
     },
     {
         "title": "projekt",
         "description": "ppppppppp",
         "category": "ppppppppp",
-        "text": "projektppppppppp"
+        "text": "projekt ppppppppp"
     }
 ]
