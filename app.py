@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-
+'''
+from embed_project import message
+from embed_project import response
 app2 = FastAPI()
 
 class Query(BaseModel):
@@ -8,5 +10,6 @@ class Query(BaseModel):
 
 @app2.post("/ask")
 def ask_question(data: Query):
-    print(data.question)
-    return {"message": "OK"}
+    
+    return {"message": "ok"}
+'''

@@ -74,7 +74,7 @@ Pytanie: {query.question}
     )
 
     response = client.chat.completions.create(
-        model="openrouter/cypher-alpha:free",
+        model="mistralai/mistral-small-3.2-24b-instruct",
         messages=[{"role": "user", "content": prompt}]
     )
 
