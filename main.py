@@ -42,7 +42,9 @@ def create_index(embeddings):
     index = faiss.IndexFlatL2(dim)
     index.add(embeddings)
     return index
-
+@app.get("/")
+def read_root():
+    return {"message": "Hello from Railway!"}
 @app.post("/ask")
 def ask_question(query: Query):
     projects = fetch_projects()
