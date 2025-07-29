@@ -1,11 +1,10 @@
 services:
   - type: web
-    name: render-web
-    runtime: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-
-    envVars:
-      - key: PORT
-        value: 10000
+    name: faiss-rag-api
+    env: docker
     plan: free
+    envVars:
+      - key: API_KEY
+        sync: false  # ustawiasz w GUI Rendera
+      - key: DB_STRING
+        sync: false  # ustawiasz w GUI Rendera
