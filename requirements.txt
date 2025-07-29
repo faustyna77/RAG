@@ -1,7 +1,7 @@
 fastapi
-uvicorn==0.29.0
+uvicorn
 faiss-cpu
-python-dotenv
 sentence-transformers
 openai
-psycopg2-binary
+psycopg2
+python-dotenv
